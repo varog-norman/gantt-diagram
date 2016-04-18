@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+input[type='button'] {
+    background: none;
+    border: 1px solid #1abc9c;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 2px #333;
+    opacity: 0.9;
+}
+
+input[type='button']:hover {
+    opacity: 1;
+}
+
+input[type='button']:active {
+    box-shadow: none;
+}
+
+.diagram {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.line {
+    height: 40px;
+    min-width: 100%;
+    border-bottom: 2px solid #ccc;
+}
+
+.name {
+    display: inline-block;
+    height: 100%;
+    width: 200px;
+    color: #333;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.week {
+    display: inline-block;
+    height: 100%;
+    width: 70px;
+}
+
+.separator {
+    display: inline-block;
+    height: 100%;
+    width: 2px;
+    background-color: #ccc;
+}
+
+.day {
+    display: inline-block;
+    height: 100%;
+    width: 10px;
+}
+
+.day_scale {
+    display: inline-block;
+    height: 100%;
+    width: 70px;
+}
+
+.indicator {
+    height: 20px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.indicator_scale {
+    height: 20px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.calendar {
+    width: 100%;
+    height: 40px;
+    padding-left: 165px;
+}
+
+.calendar_scale {
+    width: 100%;
+    height: 40px;
+    padding-left: 200px;
+}
+
+.calendar_week {
+    display: inline-block;
+    height: 100%;
+    width: 70px;
+    margin-right: 2px;
+    text-align: center;
+    font-size: 13px;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.calendar_day {
+    display: inline-block;
+    height: 100%;
+    width: 70px;
+    margin-right: 2px;
+    text-align: center;
+    font-size: 13px;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.description {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.square {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
